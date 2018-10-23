@@ -1,67 +1,64 @@
+Título: Desarrollo de Android
 ---
-title: Android Development
----
-# Android Development
+# Desarrollo de Android
 
-Android apps can be a great, fun way to get into the world of programming. Officially, programmers can use Java, Kotlin, or C++ to develop for Android, and though there may be API restrictions, using tools, developers can use a large number of languages, including JavaScript, C, or assembly, and the possibilities are endless.
+Las aplicaciones de Android pueden ser una manera excelente y divertida de ingresar al mundo de la programación. Oficialmente, los programadores pueden usar Java, Kotlin o C ++ para desarrollar para Android, y aunque puede haber restricciones de API, usando herramientas, los desarrolladores pueden usar una gran cantidad de lenguajes, incluyendo JavaScript, C o ensamblados, y las posibilidades son infinitas.
 
-From simple games and utility apps to full-blown music players, there are many opportunities to create something meaningful with Android. The Android developer community is widespread, and the documentation and resources online are easy to find, so that you can tackle any issue you're facing.
+Desde juegos simples y aplicaciones de utilidad hasta reproductores de música en toda regla, hay muchas oportunidades para crear algo significativo con Android. La comunidad de desarrolladores de Android está muy extendida, y la documentación y los recursos en línea son fáciles de encontrar, por lo que puede abordar cualquier problema que esté enfrentando.
 
-There is definitely a learning curve to get used to the Android framework, however once you understand the core components that make up the app, the rest will come naturally.
+Definitivamente, hay una curva de aprendizaje para acostumbrarse al marco de Android, sin embargo, una vez que entienda los componentes centrales que conforman la aplicación, el resto vendrá de forma natural.
 
-The learning curve involved in Android has a relatively smaller slope compared to learning other technologies such as NodeJS. It is also relatively easier to understand and make contributions towards AOSP hosted by Google. The project can be found [here](https://source.android.com/) 
+La curva de aprendizaje involucrada en Android tiene una pendiente relativamente menor en comparación con el aprendizaje de otras tecnologías como NodeJS. También es relativamente más fácil de entender y hacer contribuciones a AOSP alojadas por Google. El proyecto se puede encontrar [aquí] (https://source.android.com/)
 
-## Getting started
-Check out the guides in this folder to learn about the 4 [core components](core-components/index.md) that make up an Android app and how you can get started with a sample app, and then delve into the more advanced topics such as fragments and the Gradle build system. Then check out the material design specifications guide as well to learn how to make your apps beautiful and user friendly.
+## Empezando
+Consulte las guías en esta carpeta para obtener información sobre los 4 [componentes principales] (core-components / index.md) que conforman una aplicación de Android y cómo puede comenzar con una aplicación de muestra, y luego profundice en los temas más avanzados. tales como fragmentos y el sistema de construcción Gradle. Luego revise la guía de especificaciones de diseño de materiales y aprenda cómo hacer que sus aplicaciones sean hermosas y fáciles de usar.
 
-### Setting Up and Getting Started with Android Studio
-Go to this [link](https://www.oracle.com/technetwork/java/javase/downloads/index.html) and install the latest JDK.
-Now download the Android Studio and SDK tools bundle from [here](https://developer.android.com/studio/).
-Install the Android Studio and SDK following the set up. Keep note of the SDK location.
-If you face any error go to settings later to solve it.
+### Configuración y introducción de Android Studio
+Vaya a este [enlace] (https://www.oracle.com/technetwork/java/javase/downloads/index.html) e instale el último JDK.
+Ahora descargue el paquete de herramientas de Android Studio y SDK desde [aquí] (https://developer.android.com/studio/).
+Instale el Android Studio y el SDK después de la configuración. Tome nota de la ubicación del SDK.
+Si te encuentras con algún error ve a la configuración más tarde para resolverlo.
 
-Lastly, learn to integrate 3rd party libraries and Firebase services to add functionality to your app. It would be helpful if you go through the official documentation for each component.
+Finalmente, aprenda a integrar bibliotecas de terceros y servicios de Firebase para agregar funcionalidad a su aplicación. Sería útil si revisa la documentación oficial de cada componente.
 
-### Official Documentation
+### Documentación oficial
 
-[Google Developers Guide for Android](https://developer.android.com/training/index.html)
+[Guía de desarrolladores de Google para Android] (https://developer.android.com/training/index.html)
 
 #### Java vs. Kotlin
 
-Ever since Google announced Kotlin as the official language for Android development at Google IO in 2017, programmers who want to become Android developers are in a dilemma. The big question in front of them is whether they should learn Kotlin or Java.
+Desde que Google anunció Kotlin como el idioma oficial para el desarrollo de Android en Google IO en 2017, los programadores que quieren convertirse en desarrolladores de Android se encuentran en un dilema. La gran pregunta que se les presenta es si deben aprender Kotlin o Java.
 
-##### Beginners in Android Development Should Start With Java
+##### Los principiantes en el desarrollo de Android deberían comenzar con Java
 
-First and foremost is that Android development is not everything; as a programmer, you may be starting your career with Android development, but if you start with a well-established language like Java, you become a part of the bigger Java community and market, which directly means more job opportunities.
+Lo primero y más importante es que el desarrollo de Android no lo es todo; como programador, puede comenzar su carrera con el desarrollo de Android, pero si comienza con un lenguaje bien establecido como Java, se convierte en parte de la comunidad y el mercado más grandes de Java, lo que significa más oportunidades de empleo.
 
-The second, and more important thing, is that there is a huge community of Java programmers, which means you can find answers when you are stuck. This is very important because, as a beginner, you will face a lot of technical problems and you might not know where to head when you are stuck. When you search Google with a Java problem, you are bound to get answers; the same cannot be said for Kotlin, which is still a new programming language.
+Lo segundo, y más importante, es que hay una gran comunidad de programadores de Java, lo que significa que puedes encontrar respuestas cuando estás atascado. Esto es muy importante porque, como principiante, se enfrentará a muchos problemas técnicos y es posible que no sepa adónde dirigirse cuando está atrapado. Cuando busca en Google con un problema de Java, está obligado a obtener respuestas; No se puede decir lo mismo de Kotlin, que todavía es un nuevo lenguaje de programación.
 
-###### Java Programmers Should Learn Kotlin
+###### Los programadores de Java deberían aprender Kotlin
 
-Now, coming back to the second set of programmers who wants to learn Android development: our fellow Java developers. For them, I think its best to learn Kotlin because it really improves productivity.
+Ahora, volviendo al segundo grupo de programadores que quieren aprender sobre el desarrollo de Android: nuestros compañeros desarrolladores de Java. Para ellos, creo que es mejor aprender Kotlin porque realmente mejora la productividad.
 
-A class which takes 50 lines of code in Java can really be written in just one line in Kotlin. It can help you avoid all boiler-plate code, e.g. you don't need to specify getters and setters, equals(), hashCode() or toString() methods. Kotlin can generate all that by itself.
+Una clase que toma 50 líneas de código en Java realmente puede escribirse en una sola línea en Kotlin. Puede ayudarlo a evitar todos los códigos de placa de caldera, por ej. no es necesario especificar los métodos get y set, equals (), hashCode () o toString (). Kotlin puede generar todo eso por sí mismo.
 
-If you don't know, Kotlin was developed by JetBrains, the company behind one of the most popular Java IDEs, IntelliJ IDEA. They were a Java shop and developing IDEs like IntelliJ IDEA, PyCharm, and ReSharper, all in Java, and built Kotlin to improve their productivity, but at the same time, they cannot rewrite all their code in Kotlin, so that's why they made Kotlin fully interoperable with Java.
+Si no lo sabes, Kotlin fue desarrollado por JetBrains, la compañía detrás de uno de los IDE de Java más populares, IntelliJ IDEA. Eran una tienda de Java y desarrollar IDE como IntelliJ IDEA, PyCharm y ReSharper, todos en Java, y construyeron Kotlin para mejorar su productividad, pero al mismo tiempo, no pueden reescribir todo su código en Kotlin, por eso hicieron Kotlin. Totalmente interoperable con Java.
 
-Because Kotlin generates Java bytecode, you can use your favorite Java frameworks and libraries in Kotlin and your Java friends can also use any Kotlin framework you develop.
+Como Kotlin genera el código de bytes de Java, puede usar sus marcos y bibliotecas de Java favoritos en Kotlin y sus amigos de Java también pueden usar cualquier marco de Kotlin que desarrolle.
 
-### Practice
+### práctica
 
-[Codelabs for Boosting up Skills](https://codelabs.developers.google.com)
+[Codelabs para aumentar las habilidades] (https://codelabs.developers.google.com)
 
 ### Google Developer Console
 
-[Google Developer Console](https://developer.android.com/distribute/console/)
+[Google Developer Console] (https://developer.android.com/distribute/console/)
 
-### Courses
+### Cursos
 
-[Udacity Android Nanodegree Program](https://udacity.com/course/android-developer-nanodegree-by-google--nd801)
+[Programa Udacity Android Nanodegree] (https://udacity.com/course/android-developer-nanodegree-by-google--nd801)
 
-[Udemy The Complete Android Kotlin Developer Course](https://www.udemy.com/the-complete-kotlin-developer-course/)
+[Curso de desarrollo de Kotlin para Android de Udemy completo] (https://www.udemy.com/the-complete-kotlin-developer-course/)
 
-### Developing Android Apps
+### Desarrollando aplicaciones de Android
 
-The best part of learning Android is that many of the courses and material available out there online are free.
-The link to the basic course is here - [Developing Android Apps](https://udacity.com/course/new-android-fundamentals--ud851).
-The link to the advanced course is here - [Advanced Android App Development](https://www.udacity.com/course/advanced-android-app-development--ud855). 
+La mejor parte del aprendizaje de Android es que muchos de los compañeros
