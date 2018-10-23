@@ -1,67 +1,65 @@
 ---
-title: Android Development
+शीर्षक: एंड्रॉइड विकास
 ---
-# Android Development
+# एंड्रॉइड विकास
 
-Android apps can be a great, fun way to get into the world of programming. Officially, programmers can use Java, Kotlin, or C++ to develop for Android, and though there may be API restrictions, using tools, developers can use a large number of languages, including JavaScript, C, or assembly, and the possibilities are endless.
+प्रोग्रामिंग की दुनिया में आने के लिए एंड्रॉइड ऐप्स एक शानदार, मजेदार तरीका हो सकता है। आधिकारिक तौर पर, प्रोग्रामर जावा, कोटलिन या सी ++ का उपयोग एंड्रॉइड के लिए विकसित करने के लिए कर सकते हैं, और हालांकि उपकरण का उपयोग करके एपीआई प्रतिबंध हो सकते हैं, डेवलपर्स जावास्क्रिप्ट, सी, या असेंबली समेत बड़ी संख्या में भाषाओं का उपयोग कर सकते हैं, और संभावनाएं अनंत हैं।
 
-From simple games and utility apps to full-blown music players, there are many opportunities to create something meaningful with Android. The Android developer community is widespread, and the documentation and resources online are easy to find, so that you can tackle any issue you're facing.
+सरल गेम और उपयोगिता ऐप्स से पूर्ण उड़ाए गए संगीत प्लेयर तक, Android के साथ कुछ सार्थक बनाने के कई अवसर हैं। एंड्रॉइड डेवलपर समुदाय व्यापक है, और दस्तावेज़ीकरण और संसाधन ऑनलाइन ढूंढना आसान है, ताकि आप जिस भी समस्या का सामना कर रहे हैं उससे निपट सकें।
 
-There is definitely a learning curve to get used to the Android framework, however once you understand the core components that make up the app, the rest will come naturally.
+एंड्रॉइड फ्रेमवर्क में उपयोग करने के लिए निश्चित रूप से एक सीखने की वक्र है, हालांकि एक बार जब आप ऐप बनाने वाले मूल घटकों को समझ लेते हैं, तो बाकी स्वाभाविक रूप से आते हैं।
 
-The learning curve involved in Android has a relatively smaller slope compared to learning other technologies such as NodeJS. It is also relatively easier to understand and make contributions towards AOSP hosted by Google. The project can be found [here](https://source.android.com/) 
+एंड्रॉइड में शामिल सीखने की वक्र में नोडजेएस जैसी अन्य तकनीकों को सीखने की अपेक्षा अपेक्षाकृत छोटी ढलान है। यह Google द्वारा होस्ट किए गए एओएसपी की ओर समझने और योगदान करने के लिए अपेक्षाकृत आसान है। परियोजना [यहां] मिल सकती है (https://source.android.com/)
 
-## Getting started
-Check out the guides in this folder to learn about the 4 [core components](core-components/index.md) that make up an Android app and how you can get started with a sample app, and then delve into the more advanced topics such as fragments and the Gradle build system. Then check out the material design specifications guide as well to learn how to make your apps beautiful and user friendly.
+## शुरू करना
+4 [कोर घटक] (कोर-घटकों / index.md) के बारे में जानने के लिए इस फ़ोल्डर में मार्गदर्शिकाएं देखें जो एंड्रॉइड ऐप बनाते हैं और आप नमूना ऐप के साथ कैसे शुरुआत कर सकते हैं, और फिर अधिक उन्नत विषयों में पहुंचे जैसे टुकड़े और ग्रैडल बिल्ड सिस्टम। फिर अपने ऐप्स को सुंदर और उपयोगकर्ता के अनुकूल बनाने के तरीके के बारे में जानने के लिए सामग्री डिज़ाइन विनिर्देश मार्गदर्शिका देखें।
 
-### Setting Up and Getting Started with Android Studio
-Go to this [link](https://www.oracle.com/technetwork/java/javase/downloads/index.html) and install the latest JDK.
-Now download the Android Studio and SDK tools bundle from [here](https://developer.android.com/studio/).
-Install the Android Studio and SDK following the set up. Keep note of the SDK location.
-If you face any error go to settings later to solve it.
+### एंड्रॉइड स्टूडियो के साथ सेट अप करना और प्रारंभ करना
+इस [लिंक] पर जाएं (https://www.oracle.com/technetwork/java/javase/downloads/index.html) और नवीनतम जेडीके इंस्टॉल करें।
+अब [एंड्रॉइड स्टूडियो और एसडीके टूल्स बंडल] [https://developer.android.com/studio/) से डाउनलोड करें।
+सेट अप के बाद एंड्रॉइड स्टूडियो और एसडीके स्थापित करें। एसडीके स्थान पर ध्यान रखें।
+यदि आपको किसी भी त्रुटि का सामना करना पड़ता है तो इसे हल करने के लिए बाद में सेटिंग्स पर जाएं।
 
-Lastly, learn to integrate 3rd party libraries and Firebase services to add functionality to your app. It would be helpful if you go through the official documentation for each component.
+अंत में, अपने ऐप में कार्यक्षमता जोड़ने के लिए तृतीय पक्ष पुस्तकालयों और फायरबेस सेवाओं को एकीकृत करना सीखें। यदि आप प्रत्येक घटक के लिए आधिकारिक दस्तावेज के माध्यम से जाते हैं तो यह सहायक होगा।
 
-### Official Documentation
+### आधिकारिक दस्तावेज़ीकरण
 
-[Google Developers Guide for Android](https://developer.android.com/training/index.html)
+[एंड्रॉइड के लिए Google डेवलपर गाइड] (https://developer.android.com/training/index.html)
 
-#### Java vs. Kotlin
+#### जावा बनाम कोटलिन
 
-Ever since Google announced Kotlin as the official language for Android development at Google IO in 2017, programmers who want to become Android developers are in a dilemma. The big question in front of them is whether they should learn Kotlin or Java.
+जब से Google ने 2017 में Google आईओ में एंड्रॉइड विकास के लिए कोटलिन की आधिकारिक भाषा के रूप में घोषणा की, तब से प्रोग्रामर जो एंड्रॉइड डेवलपर्स बनना चाहते हैं, वे एक दुविधा में हैं। उनके सामने बड़ा सवाल यह है कि क्या उन्हें कोटलिन या जावा सीखना चाहिए।
 
-##### Beginners in Android Development Should Start With Java
+##### एंड्रॉइड डेवलपमेंट में शुरुआती जावा के साथ शुरू होना चाहिए
 
-First and foremost is that Android development is not everything; as a programmer, you may be starting your career with Android development, but if you start with a well-established language like Java, you become a part of the bigger Java community and market, which directly means more job opportunities.
+सबसे पहले और सबसे महत्वपूर्ण यह है कि एंड्रॉइड विकास सबकुछ नहीं है; एक प्रोग्रामर के रूप में, आप एंड्रॉइड विकास के साथ अपना करियर शुरू कर सकते हैं, लेकिन यदि आप जावा जैसी अच्छी तरह से स्थापित भाषा से शुरू करते हैं, तो आप बड़े जावा समुदाय और बाजार का हिस्सा बन जाते हैं, जिसका अर्थ है कि अधिक नौकरी के अवसरों का अर्थ है।
 
-The second, and more important thing, is that there is a huge community of Java programmers, which means you can find answers when you are stuck. This is very important because, as a beginner, you will face a lot of technical problems and you might not know where to head when you are stuck. When you search Google with a Java problem, you are bound to get answers; the same cannot be said for Kotlin, which is still a new programming language.
+दूसरी, और अधिक महत्वपूर्ण बात यह है कि जावा प्रोग्रामर का एक बड़ा समुदाय है, जिसका अर्थ है कि जब आप अटक जाते हैं तो आप जवाब पा सकते हैं। यह बहुत महत्वपूर्ण है क्योंकि, शुरुआत के रूप में, आपको बहुत सारी तकनीकी समस्याओं का सामना करना पड़ेगा और आपको पता नहीं चलेगा कि आप कहां फंस गए हैं। जब आप जावा समस्या के साथ Google को खोजते हैं, तो आपको जवाब मिलना होगा; कोटलिन के लिए भी ऐसा नहीं कहा जा सकता है, जो अभी भी एक नई प्रोग्रामिंग भाषा है।
 
-###### Java Programmers Should Learn Kotlin
+###### जावा प्रोग्रामर को कोटलिन सीखना चाहिए
 
-Now, coming back to the second set of programmers who wants to learn Android development: our fellow Java developers. For them, I think its best to learn Kotlin because it really improves productivity.
+अब, प्रोग्रामर के दूसरे सेट पर वापस आना जो एंड्रॉइड डेवलपमेंट सीखना चाहता है: हमारे साथी जावा डेवलपर्स। उनके लिए, मुझे लगता है कि कोटलिन सीखना सबसे अच्छा है क्योंकि यह वास्तव में उत्पादकता में सुधार करता है।
 
-A class which takes 50 lines of code in Java can really be written in just one line in Kotlin. It can help you avoid all boiler-plate code, e.g. you don't need to specify getters and setters, equals(), hashCode() or toString() methods. Kotlin can generate all that by itself.
+जावा में कोड की 50 लाइनें ले जाने वाली कक्षा वास्तव में कोटलिन में केवल एक पंक्ति में लिखी जा सकती है। यह आपको सभी बॉयलर-प्लेट कोड से बचने में मदद कर सकता है, उदा। आपको गेटर्स और सेटर्स, बराबर (), हैशकोड () या toString () विधियों को निर्दिष्ट करने की आवश्यकता नहीं है। कोटलिन खुद ही सब कुछ उत्पन्न कर सकता है।
 
-If you don't know, Kotlin was developed by JetBrains, the company behind one of the most popular Java IDEs, IntelliJ IDEA. They were a Java shop and developing IDEs like IntelliJ IDEA, PyCharm, and ReSharper, all in Java, and built Kotlin to improve their productivity, but at the same time, they cannot rewrite all their code in Kotlin, so that's why they made Kotlin fully interoperable with Java.
+यदि आप नहीं जानते हैं, कोटलिन को जेटब्रेन द्वारा विकसित किया गया था, कंपनी सबसे लोकप्रिय जावा आईडीई, इंटेलिजे आईडीईए में से एक के पीछे है। वे जावा शॉप थे और इंटेलिज आईडीआईए, पायचर्म और रीशेपर जैसे सभी आईडीई विकसित कर रहे थे, और जावा में सभी ने अपनी उत्पादकता में सुधार करने के लिए कोटलिन बनाया, लेकिन साथ ही, वे कोटलिन में अपने सभी कोड को फिर से लिख नहीं सकते हैं, इसलिए उन्होंने कोटलिन बनाया जावा के साथ पूरी तरह से अंतःक्रियाशील।
 
-Because Kotlin generates Java bytecode, you can use your favorite Java frameworks and libraries in Kotlin and your Java friends can also use any Kotlin framework you develop.
+क्योंकि कोटलिन जावा बाइटकोड उत्पन्न करता है, आप कोटलिन में अपने पसंदीदा जावा फ्रेमवर्क और पुस्तकालयों का उपयोग कर सकते हैं और आपके जावा मित्र आपके द्वारा विकसित किसी भी कोटलिन ढांचे का भी उपयोग कर सकते हैं।
 
-### Practice
+### अभ्यास
 
-[Codelabs for Boosting up Skills](https://codelabs.developers.google.com)
+[कौशल को बढ़ावा देने के लिए कोडेलाब] (https://codelabs.developers.google.com)
 
-### Google Developer Console
+### Google डेवलपर कंसोल
 
-[Google Developer Console](https://developer.android.com/distribute/console/)
+[Google डेवलपर कंसोल] (https://developer.android.com/distribute/console/)
 
-### Courses
+### पाठ्यक्रम
 
-[Udacity Android Nanodegree Program](https://udacity.com/course/android-developer-nanodegree-by-google--nd801)
+[Udacity एंड्रॉइड नैनोडग्री कार्यक्रम] (https://udacity.com/course/android-developer-nanodegree-by-google--nd801)
 
-[Udemy The Complete Android Kotlin Developer Course](https://www.udemy.com/the-complete-kotlin-developer-course/)
+[Udemy पूर्ण एंड्रॉइड Kotlin डेवलपर कोर्स] (https://www.udemy.com/the-complete-kotlin-developer-course/)
 
-### Developing Android Apps
+### एंड्रॉइड ऐप का विकास
 
-The best part of learning Android is that many of the courses and material available out there online are free.
-The link to the basic course is here - [Developing Android Apps](https://udacity.com/course/new-android-fundamentals--ud851).
-The link to the advanced course is here - [Advanced Android App Development](https://www.udacity.com/course/advanced-android-app-development--ud855). 
+एंड्रॉइड सीखने का सबसे अच्छा हिस्सा यह है कि सह
